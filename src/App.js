@@ -1,32 +1,15 @@
-import { useState } from "react";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./About";
 
-function App() {
-  const [username, setUsername] = useState("");
-  const [type, setType] = useState(null);
+import Home from "./Home";
 
-  const handleSubmit = async () => {
-    console.log("making api call...");
-    const response = await fetch(
-      `http://127.0.0.1:5000/persona?username=${username}`
-    );
-    console.log("response", response);
-    const data = await response.json();
-    console.log("data", data);
-    if (data.data) return setType(data.data);
-  };
-
+export default function App() {
   return (
-    <div className="App">
-      <input
-        name="username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <button onClick={handleSubmit}>Get MBTI personality</button>
-      {type && <h2>Your personality type is {type}</h2>}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
