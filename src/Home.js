@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Chat from "./chat/Chat";
 
 function Home() {
   const [username, setUsername] = useState("");
@@ -60,6 +61,7 @@ function Home() {
           {type && <p>Your personality type is {type}</p>}
         </div>
       </header>
+      <Chat />
     </div>
   );
 }
