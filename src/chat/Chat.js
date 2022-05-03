@@ -7,14 +7,18 @@ export default function Chat() {
       from: "bot",
       message: "Hi, Welcome to Persona!",
     },
-    {
-      from: "visitor",
-      message: "Hello!",
-    },
   ]);
   const [message, setMessage] = useState("");
 
   const handleSubmit = async () => {
+    setMessages((prev) => [
+      {
+        message,
+        from: "visitor",
+      },
+      ...prev,
+    ]);
+    setMessage("");
     console.log("making api call...");
     const response = await fetch(
       `http://127.0.0.1:5000/chat?message=${message}`
@@ -22,13 +26,22 @@ export default function Chat() {
     console.log("response", response);
     const data = await response.json();
     console.log("data", data);
+    setTimeout(() => {
+      setMessages((prev) => [
+        {
+          message: data.data,
+          from: "bot",
+        },
+        ...prev,
+      ]);
+    }, 500);
   };
 
   return (
     <div class="chatbox">
       <h2>Chat</h2>
       <div className="chatbox__messages">
-        {messages.reverse().map((item, index) =>
+        {messages.map((item, index) =>
           item.from === "bot" ? (
             // <div className="outer_message_container">
             //   <img
