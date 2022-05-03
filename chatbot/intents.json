@@ -1,0 +1,131 @@
+{"intents": [
+
+    {"tag": "Greetings", 
+        "patterns": ["hello", "hi", "hey"], 
+        "responses": ["Hello, I am Chatbot, How may I help you?"]
+    },
+    
+    {"tag": "Personality Traits", 
+        "patterns": ["big five personality traits"], 
+        "responses": ["The big five personality traits are extraversion, agreeableness, openness, conscientiousness, and neuroticism."]
+    },
+    
+    {"tag": "Mtype1", 
+        "patterns": ["extraversion"], 
+        "responses": ["Extraversion is defined by the general tendency to experience positive emotions, as well as by traits such as sociable, lively, and active."]
+    },
+    
+    
+    {"tag": "Mtype2", 
+        "patterns": ["agreeableness"], 
+        "responses": ["Agreeableness is a personality trait that describes a person's ability to put others needs before their own. Those who are more agreeable are more likely to be empathetic and find pleasure in helping others and working with people who need more help."]
+    },
+    
+    {"tag": "Mtype3", 
+        "patterns": ["openness"], 
+        "responses": ["Openness features characteristics such as imagination and insight. People who are high in this trait also tend to have a broad range of interests."]
+    },
+    
+    {"tag": "Mtype4", 
+        "patterns": ["conscientiousness"], 
+        "responses": ["Conscientiousness is a trait that is commonly associated with awareness. Conscientious people are well organised, demonstrate self-control and can plan their time very well."]
+    },
+    
+    {"tag": "Mtype5", 
+        "patterns": ["neuroticism"], 
+        "responses": ["Neuroticism is the trait disposition to experience negative affects, including anger, anxiety, self‐consciousness, irritability, emotional instability, and depression."]
+    },
+    
+    {"tag": "16personalities", 
+        "patterns": ["16 personality types"], 
+        "responses": ["The Inspector (ISTJ), The Counselor (INFJ), The Mastermind (INTJ), The Giver (ENFJ),The Provider (ESFJ), The Idealist (INFP), The Performer (ESFP), The Champion (ENFP), The Doer (ESTP), The Supervisor (ESTJ), The Commander (ENTJ) , The Thinker (INTP), The Nurturer (ISFJ), The Visionary (ENTP), The Composer (ISFP)"]
+    },
+
+    {"tag": "type1", 
+        "patterns": ["ISTJ", "inspectors"],
+        "responses": ["ISTJs are serious, proper, and formal in appearance which can be intimidating, They are cultured and have an affection towards tradition, They are called inspectors because of their keen attention to detail, ISTJ are rule followers who always take the logical approach towards their goals and projects."]
+    },
+
+    {"tag": "type2", 
+        "patterns": ["INJF", "counselor"], 
+        "responses": ["INFJs are visionaries who have a different view of the world. They love introspection and refuse to take things at a surface level. The INFJ are idealists who love understanding complex issues. They are reserved leaders who are usually creatives due to how easily they get inspired."]
+    },
+    
+    {"tag": "type3", 
+        "patterns": ["INTJ", "mastermind"], 
+        "responses": ["INTJs are introverts who are comfortable being by themselves. They would avoid socializing as it drains their energy. They excel at developing plans and strategies. As analytical problem solvers, this personality type is strategic and innovative."]
+    },
+    
+    {"tag": "type4", 
+        "patterns": ["ENFJ", "giver"], 
+        "responses": ["ENFJs are individuals who are people-centered. They rely mostly on their intuition and feelings and tend to live through their imagination. They focus on abstracts and what could happen in the future."]
+    },
+    
+    {"tag": "type5", 
+        "patterns": ["ISTP", "craftsman"], 
+        "responses": ["ISTPs are mysterious, rational, and highly logical bunch. They are spontaneous and unpredictable most times albeit oblivious to those around them because they are experts at hiding their true nature."]
+    },
+    
+    {"tag": "type6", 
+        "patterns": ["ESFJ", "provider"], 
+        "responses": ["ESFJs are stereotypically known to be extroverts. They are cheerleaders and raise the spirits of those around them earning them popularity. Because of their nature, they are easily liked and people easily warm up to them."]
+    },
+    
+    {"tag": "type7", 
+        "patterns": ["INFP","idealist"], 
+        "responses": ["INFPs are usually reserved and introverted. They usually spend time all by themselves in quiet places.Their dominant cognitive function is introverted feeling which helps them with processing emotions internally. They thrive in jobs that require visions and aligns with their goals/ interests."]
+    },
+    
+    {"tag": "type8", 
+        "patterns": ["ESFP", "performer"], 
+        "responses": ["ESFPs are mostly perceived to be entertainers. They enjoy being in the spotlight, exploring and learning to share what they’ve learned with others through their strong interpersonal skills. They thrive in work environments where they can be spontaneous, move around often, and involves the use of artistic values."]
+    },
+    
+    {"tag": "type9", 
+        "patterns": ["ENFP", "champion"], 
+        "responses": ["ENFPs are highly individualistic and refuse to live their lives inside a box, strive to create their own methods of doing things. They operate with their feelings and are highly perceptive and thoughtful. Their dominant cognitive function is extraverted intuition which allows them to focus on abstract thoughts."]
+    },
+    
+    {"tag": "type10", 
+        "patterns": ["ESTP", "doer"], 
+        "responses": ["ESTPs are governed by the need to interact with others. They are interested in abstracts and theories, spontaneous and risk-taking. They aren’t afraid of making mistakes as they make it up as they go along. They thrive in career paths that require mechanical skills, flexibility, and is quite unpredictable."]
+    },
+    
+    {"tag": "type11", 
+        "patterns": ["ESTJ", "supervisor"], 
+        "responses": ["ESTJs are organized and governed by the zeal to do what is right and socially acceptable. Their dominant cognitive function is extraverted thinking which makes them quite practical. The ESTJ’s like to work in management positions where they can oversee operations and put in structures."]
+    },
+    
+    {"tag": "type12", 
+        "patterns": ["ENTJ", "commander"], 
+        "responses": ["ENTJs focus on dealing with all things rationally and logically. They are naturally born leaders who command respect. They see obstacles as challenges in which they can prove themselves. They are deliberate about orders and judgments. The ENTJ thrives in jobs that are complex and require clear strategies for goals."]
+    },
+    
+    {"tag": "type13", 
+        "patterns": ["INTP", "thinker"], 
+        "responses": ["INTPs are typically known for their brilliant ideas and propositions. They see a pattern in everything and can easily pick out something that’s out of place. They are concerned with finding an environment where their creative genius can be harnessed. Work in environments in  that aren’t focused on traditions."]
+    },
+    
+    {"tag": "type14", 
+        "patterns": ["ISFJ", "nurturer"], 
+        "responses": ["ISFJs are highly generous and ever-ready to give back to society. They are warm and kind-hearted individuals, possess an awareness and consideration towards bringing out the best in others. They thrive in jobs that require structure and are positioned behind the scenes."]
+    },
+    
+    {"tag": "type15", 
+        "patterns": ["ENTP", "visionary"], 
+        "responses": ["ENTPs are extroverts who do not enjoy small talk. These personalities are very rare to come across. They have a logical and rational approach to discussions and/or arguments. They are knowledgeable but need constant stimulation. They thrive in jobs where creativity meets challenges."]
+    },
+    
+    {"tag": "type16", 
+        "patterns": ["ISFP", "composer"], 
+        "responses": ["ISFPs on the outside seem like introverts but deep down they’re warm and very friendly. They are spontaneous and fun to be with. They are always out to explore new things and discover new experiences."]
+    },
+
+    {"tag": "Farewell", 
+        "patterns": ["thank you!", "thanks for the info mate!"], 
+        "responses": ["You're welcome.", "A pleasure to help."]
+    }
+
+]}
+    
+

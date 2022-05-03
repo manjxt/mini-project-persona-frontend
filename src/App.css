@@ -56,6 +56,8 @@ ul li a:hover {
 .title h1 {
   color: #000;
   font-size: 70px;
+  font-family: 'Cedarville Cursive',
+  cursive;
 }
 
 .button {
@@ -83,6 +85,7 @@ ul li a:hover {
   border-radius: 10px;
   font-family: monospace;
   margin-bottom: 15px;
+  width: 400px;
 }
 
 .btn:hover {
@@ -100,4 +103,5 @@ ul li a:hover {
   border-radius: 10px;
   font-family: monospace;
   margin-top: 30px;
+  width: 357px;
 }

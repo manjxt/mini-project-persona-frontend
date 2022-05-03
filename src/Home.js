@@ -29,10 +29,10 @@ function Home() {
         <div class="main">
           <ul>
             <li>
-              <a href="#">Know your Personality</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Home</a>
+              <a href="/kyp">Know your Personality</a>
             </li>
             <li>
               <a href="/about">AboutUs</a>
